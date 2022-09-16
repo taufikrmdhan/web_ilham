@@ -1,0 +1,204 @@
+/* .body-home {
+    background: url("http://www.example.com/wp-content/uploads/2013/01/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+} */
+
+.bg-transparent {
+  background-color: transparent;
+  background: linear-gradient(rgba(104, 97, 139, 0.82), rgba(104, 97, 139, 0.82)),
+    url(/img/up.jpg) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+header .navbar {
+  background-color: #2a263d !important;
+}
+
+header .container .row .col-md-6 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header .container h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #e0d9da;
+  font-size: 40pt;
+}
+
+.imgLogo {
+  width: 5%;
+}
+.style-font {
+  font-family: "Inspiration", cursive;
+  font-size: 30pt;
+}
+
+footer {
+  background-color: #2a263d;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 240px) and (max-width: 991px) {
+  .medicolor {
+    color: white !important;
+  }
+}
+/* html {
+    background: linear-gradient(rgba(42, 38, 61, 0.82),rgba(42, 38, 61, 0.82)),url(bali.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .bg-transparent {
+    background-color: transparent;
+  }
+  .max-3xl{
+    width: 300px;
+    margin: 0 auto;
+  } */
+/* .body-home { */
+/* scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar-custom {
+    background-color: #FFF7F7;
+    font-weight: bold;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #FFF7F7;
+    background: linear-gradient(rgba(42, 38, 61, 0.82),rgba(42, 38, 61, 0.82)),url(bali.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  header .navbar {
+    background-color: grey;
+  }
+  
+  #brand {
+    color: #a30016;
+  }
+  
+  .gayaNav {
+    margin-left: 120px !important;
+  }
+  
+  
+  .ms-15 {
+    margin-left: 0rem !important;
+  }
+  
+  .ms-10 {
+    margin-left: 5rem !important;
+  }
+  
+  .li-nav-custom {
+    font-size: 14px;
+    color: black !important;
+  }
+  
+  .li-nav-custom {
+    font-size: 14px;
+    color: black !important;
+  }
+  
+  a.li-nav-custom:hover {
+    color: #ff6464 !important;
+  }
+  
+  .active-custom {
+    color: #ff6464 !important;
+  }
+  
+  .advantage{
+    height: 100%;
+  }
+  .custom-list {
+    list-style: none;
+  }
+  
+  .number-list {
+    padding: 10px;
+    background-color: #ECECEC;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    color: #a30016;
+  }
+  
+  .top-news{
+    height: 100%;
+  }
+  .see-faq{
+    height: 45vh;
+  }
+  
+  footer{
+    background-color: #FFF7F7;
+    font-size: 10pt;
+  }
+  
+  .footer-down{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #a30016;
+  }
+  
+  .show-hide{
+    height: 20px;
+    font-size: 10pt;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #a30016;
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+    /* For tablets: */
+/* .dekor1 {
+      z-index: 1;
+      position: absolute;
+      width: 50px;
+      height: 140px;
+      background: #a30016;
+      border-radius: 0px 0px 80px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+  
+    /* For desktop: */
+/* .dekor1 {
+      z-index: 1;
+      position: absolute;
+      width: 80px;
+      height: 140px;
+      background: #a30016;
+      border-radius: 0px 0px 80px 0px;
+    }
+  
+    .ms-10 {
+      margin-left: 10rem !important;
+    }
+  
+    .ms-15 {
+      margin-left: 15rem !important;
+    }
+  }  */
